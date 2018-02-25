@@ -5,10 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RIBO"
         mc:Ignorable="d"
-        Title="MainWindow" Height="2273.995" Width="619.118">
-    <Grid>
-        <Button x:Name="launch" Content="Button" HorizontalAlignment="Left" Margin="110,54,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="valeur" HorizontalAlignment="Left" Height="782" Margin="132,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="387"/>
+        Title="MainWindow" Height="437.995" Width="434.118">
+    <Grid Margin="0,0,0,9">
+        <Button x:Name="refreshButton" Content="Refresh" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="launch_Click"/>
+        <TextBox x:Name="mode" HorizontalAlignment="Left" Height="21" Margin="118,61,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="refreshTime" HorizontalAlignment="Left" Height="23" Margin="104,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="consigne" HorizontalAlignment="Left" Height="21" Margin="118,91,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <Label Content="Mode" HorizontalAlignment="Left" Height="30" Margin="14,57,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label Content="Consigne" HorizontalAlignment="Left" Height="30" Margin="14,87,0,0" VerticalAlignment="Top" Width="81"/>
+        <TextBox x:Name="piece1_value" HorizontalAlignment="Left" Height="21" Margin="142,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece2_value" HorizontalAlignment="Left" Height="21" Margin="142,225,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece3_value" HorizontalAlignment="Left" Height="21" Margin="142,255,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <Label x:Name="piece1" Content="Salon" HorizontalAlignment="Left" Height="30" Margin="14,191,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="piece2" Content="Bureau" HorizontalAlignment="Left" Height="30" Margin="14,221,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="piece3" Content="Chambre d'amis" HorizontalAlignment="Left" Height="30" Margin="14,251,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="piece4_value" HorizontalAlignment="Left" Height="21" Margin="142,284,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece5_value" HorizontalAlignment="Left" Height="21" Margin="142,313,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece6_value" HorizontalAlignment="Left" Height="21" Margin="142,343,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <Label x:Name="piece4" Content="Chambre Adrien" HorizontalAlignment="Left" Height="30" Margin="14,280,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="piece5" Content="Chambre Théo" HorizontalAlignment="Left" Height="30" Margin="14,309,0,0" VerticalAlignment="Top" Width="103"/>
+        <Label x:Name="piece6" Content="Chambre Parents" HorizontalAlignment="Left" Height="30" Margin="14,339,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="piece1_value_Copy" HorizontalAlignment="Left" Height="21" Margin="259,195,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece2_value_Copy" HorizontalAlignment="Left" Height="21" Margin="259,225,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece3_value_Copy" HorizontalAlignment="Left" Height="21" Margin="259,255,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece4_value_Copy" HorizontalAlignment="Left" Height="21" Margin="259,284,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece5_value_Copy" HorizontalAlignment="Left" Height="21" Margin="259,313,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name="piece6_value_Copy" HorizontalAlignment="Left" Height="21" Margin="259,343,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <Label x:Name="piece1_Copy" Content="Consigne" HorizontalAlignment="Left" Height="30" Margin="153,160,0,0" VerticalAlignment="Top" Width="71"/>
+        <Label x:Name="piece1_Copy1" Content="Température" HorizontalAlignment="Left" Height="30" Margin="268,160,0,0" VerticalAlignment="Top" Width="88"/>
+        <TextBox x:Name="defaut" HorizontalAlignment="Left" Height="21" Margin="118,121,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="97"/>
+        <Label Content="Code défaut" HorizontalAlignment="Left" Height="30" Margin="14,117,0,0" VerticalAlignment="Top" Width="81"/>
 
     </Grid>
 </Window>
