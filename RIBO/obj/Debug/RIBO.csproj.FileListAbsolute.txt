@@ -1,0 +1,15 @@
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\bin\Debug\RIBO.exe.config
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\bin\Debug\RIBO.exe
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\bin\Debug\RIBO.pdb
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO.csprojResolveAssemblyReference.cache
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\MainWindow.g.cs
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\App.g.cs
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO_MarkupCompile.cache
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO_MarkupCompile.lref
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\MainWindow.baml
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO.g.resources
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO.Properties.Resources.resources
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO.csproj.GenerateResource.Cache
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO.exe
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO.pdb
+c:\users\bureau\documents\visual studio 2017\Projects\RIBO\RIBO\obj\Debug\RIBO_Content.g.cs

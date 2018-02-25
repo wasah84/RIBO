@@ -1,0 +1,14 @@
+﻿<Window x:Class="RIBO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RIBO"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="2273.995" Width="619.118">
+    <Grid>
+        <Button x:Name="launch" Content="Button" HorizontalAlignment="Left" Margin="110,54,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="valeur" HorizontalAlignment="Left" Height="782" Margin="132,132,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="387"/>
+
+    </Grid>
+</Window>
